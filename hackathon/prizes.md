@@ -2,7 +2,7 @@
 
 ## Main prizes
 
-**1st place** - Fitbit Flex for two team members, Sony SRS-X11 bluetooth speakers for the other two team members
+**1st place** - Fitbit Flex wristbands for two team members, Sony SRS-X11 bluetooth speakers for the other two team members
 
 **2nd place** - Chromecasts for each team member
 
