@@ -1,4 +1,4 @@
-# Prizes
+# Hackathon Prizes
 
 ## Main prizes
 
