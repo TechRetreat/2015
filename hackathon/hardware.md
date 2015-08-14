@@ -11,9 +11,10 @@ Hardware will be returned at Mathematics 3.
 
 ## List of Hardware
 * Intel Edison (with expansion board and documentation)*
-* Thalmic Labs Myo
-* 1 Muse
-* 1 Pebble Watch
+* 1 Thalmic Labs Myo
+* 3 Muse Headbands
+* 2 Pebble Watches
+* 2 Raspberry Pis
 * 1 Smart Things Unit
 * 1 Leap Motion
 * 1 Google Glass
