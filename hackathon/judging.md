@@ -18,3 +18,13 @@ API Prizes will be judged and presented by the Sponsor awarding it.
 2. Creativity
 3. Usefulness
 4. Overall Impression 
+
+## The judges
+- Wes Worsford - Director of Velocity Garage.
+- Alroy Almeida - Cofounder of Voltera (circuit board printing startup) raised over 500k on Kickstarter earlier this year.
+- Ryan McKay-Fleming - Cofounder of Chalk (productivity suite for K-12 teachers)
+- Karel Vuong - Dev at Vidyard, new UofT Hacks webdev and started Product Hunt KW
+- Douglas Soltys - Managing Editor, Betakit
+- Rachel Bartholomew - Managing Partner at Cybernorth Ventures
+- Valentin Tsatskin - Software Engineer at Indiegogo, UI/UX designer at Mozilla and one of the key guys on HTN
+- Shane Creighton-Young - Lead Android Dev at HTN, cooped at RelateIQ and soon starting at Google
