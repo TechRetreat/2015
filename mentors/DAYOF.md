@@ -18,6 +18,8 @@ For Hackathon, you are free to roam around the room and help out students in nee
 
 For Learnathon, we will have organizers covering teaching, and mentors are welcome to help out with the whole process and take an active role in making the event awesome for everyone!
 
+Important! We have compiled a document of [emergency numbers here](https://github.com/TechRetreat/documents/blob/master/EMERGENCY_CONTACT.md). Have it handy if you get lost, or know someone who is.
+
 ##What to bring?
 Bring something to pass the time when things are not very busy, like a laptop, or your homework. Food, drinks and snacks are provided. A water bottle is a cool idea, too.
 
