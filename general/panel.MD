@@ -6,7 +6,7 @@ To ask a question feel free to raise your hand during the panel, if you're shy f
 
 ## Speakers
 ### Edward Sun
-Edward was a CS / BBA double degree and he worked at Google for his second coop.  Immediately after, he took a leave of absence and helped co-found [Kira Talent](https://www.kiratalent.com/), a venture backed video interview platform.  Which ended up becoming one of the most successful Next 36 startups.  From there he founded [Kaizena](https://kaizena.com/), a personal feedback platform that’s used by educators in 80+ countries.  Edward knows all about taking risk and achieving things at a young age.
+Edward was a CS / BBA double degree and he worked at Google for his second coop.  Immediately after, he took a leave of absence and helped co-found [Kira Talent](https://www.kiratalent.com/), a venture backed video interview platform, which ended up becoming one of the most successful Next 36 startups.  From there he founded [Kaizena](https://kaizena.com/), a personal feedback platform that’s used by educators in 80+ countries.  Edward knows all about taking risk and achieving things at a young age.
 
 Twitter: https://twitter.com/eedwardsun
 
