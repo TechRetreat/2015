@@ -80,7 +80,9 @@ Directions in techtanks are held in Headings, basicaly just an angle, with some 
 
 # Wrap up coding
 ### Save/publish code
-If youre ready to fight your tank, go to the editor and save your code, then click publish so other people can fight against my tank.
+When your tank is ready to fight, go to the editor and publish your code. Published code is the version of your tank that other people fight against when they make a new match.
+
+At the end of the day, the version of your code that is published is the version that will be used in the competition.
 
 If you're ever wondering what code is currently published, just go to the 'View Published Code' section.
 
