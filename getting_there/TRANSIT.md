@@ -15,9 +15,9 @@ You have two options: The Greyhound from Toronto Coach Terminal (at Bay and Dund
 <b>Greyhound option</b>
 The first Greyhound bus bound for Kitchener leaves Toronto Coach Terminal at 7:00 AM. Get off at the last stop, Kitchener’s Charles St Terminal, and take one of GRT’s 7D, 7E or 200 (Conestoga Mall bound) buses. 
 
-If you’re taking the 7D/E, get off at UW - B.C. Matthews Hall.
+If you’re taking the 7E, get off at UW - B.C. Matthews Hall.
 
-If you’re taking the 200, get off at UW - Davis Centre (now outside East Campus Hall).
+If you’re taking the 7D/200, get off at UW - Davis Centre.
 
 If you arrive before 9:30, go to M3; otherwise go to E5. 
 
@@ -41,9 +41,9 @@ Tickets can be purchased at the York University GO agent, as well as at the Stud
 ##From Guelph
 The first Greyhound bus from Guelph to Kitchener leaves Guelph’s Greyhound terminal at 8:30 AM. Get off at Kitchener’s Charles Street Terminal, and ride either the 7D, 7E or 200 (Conestoga Mall) bound GRT buses to the UWaterloo campus. 
 
-If you’re taking the 7D/E, get off at UW - B.C. Matthews Hall.
+If you’re taking the 7E, get off at UW - B.C. Matthews Hall.
 
-If you’re taking the 200, get off at UW - Davis Centre (now outside East Campus Hall).
+If you’re taking the 7D/200, get off at UW - Davis Centre.
 
 If you arrive before 9:30, go to M3; otherwise go to E5. 
 
