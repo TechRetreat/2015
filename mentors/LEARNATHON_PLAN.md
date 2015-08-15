@@ -84,40 +84,39 @@ Our AI's today will be written in Ruby, if you havent used Ruby before you might
 
 (http://tryruby.org/levels/1/challenges/0)
 
-Before we begin, we'll go over some of the basics of ruby.  You can try this along with me by going to tryruby.org
+Before we begin, we'll go over some of the basics of ruby.  You can try this at tryruby.org
 
-In ruby, we print to console using 'puts'
+In ruby, we print to console using `puts`. Like most languages, any text you want to use must be in quotations
 ```ruby
 puts "Hello, World!"
 ```
-Like most languages, any text or strings you want to use must be in quotations
 
-That works, but it's not too useful yet. We probably don't want to greet the whole world every time, so we can use a variable:
+That works, but it's not too useful yet. We probably don't want to greet the whole world every time, so this is when we would use variables:
 ```ruby
 name = "Daniel"
-puts "Hello, #{name}!"
+puts "Hello, " + name + "!"
 ```
-You can use string interpolation to put the content of a variable right in a string
+So here we added some text together.
 
-Ruby is a dynamically typed language, which means you don't have to specify what data type a variable is. So instead of greeting people, let's try some numbers and math:
+In Ruby you don't have to specify what a variable is. Let's try some math:
 ```ruby
 result = 5 * 5
-puts "5 x 5 = #{result}"
+puts "5 x 5 = " + result
 ```
 
-Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, so we can define a method which will do the math and print out the result for us. A method is just a reusable block of code
+Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, this is where we use methods. A method or function is a reusable block of code. You can give values to functions and have them send back results.
 ```ruby
 def five_times(x)
   result = 5 * x
-  puts "5 x #{x} = #{result}"
+  return "5 x " + x + " = " + result
 end
 
-five_times(5)
-five_times(7)
-five_times(31)
+puts five_times(5)
+puts five_times(7)
+puts five_times(31)
 ```
 
-If blocks in ruby are written between a condition and an end
+If your tank needs to make decisions, you can use an `if` statement. If statements in ruby are written between a condition and an end
 ```ruby
 puts "Hello"
 if false
@@ -126,39 +125,40 @@ end
 ```
 The condition should evaluate to either true or false
 
-(Condition examples: `true`, `3 == 3`, `5 < 10`, `15 < 10`, `8 >= 7`, `"test" == "test"`, `3 < 5 && true`, `false || true`)
+(Examples: `true`, `3 == 3`, `5 < 10`, `15 < 10`, `8 >= 7`, `"test" == "test"`, `3 < 5 && true`, `false || true`)
 
-So in our `five_times` method if we didn't want people to use larger numbers we can display a message instead:
+In our `five_times` method if we didn't want people to use larger numbers we can send back a message
 ```ruby
 def five_times(x)
   if x > 100
-    puts "Number is too big"
+    return "Number is too big"
   else
     result = 5 * x
-    puts "5 x #{x} = #{result}"
+    return "5 x " + x + " = " + result
   end
 end
 ```
 
-Next we have loops. In ruby you can use for and while loops similar to some other languages:
+Next we have loops. In ruby you can use for and while loops similar to other languages:
 ```ruby
-for x in 0..5
+for x in [0, 1, 2, 3, 4, 5]
   puts x
 end
 
 x = 0
 while x <= 5
   puts x
+  x += 1
 end
 ```
 
 But you can also use a different type of loop in ruby, anything that can be looped through has an `each` method
 ```ruby
-(0..5).each do |x|
+[0, 1, 2, 3, 4, 5].each do |x|
   puts x
 end
 ```
-This part (highlight the block) is basically just a small, unnamed method called a block or lambda
+This will print the numbers from 0 to 5
 
 ### Bot Structure
 // Jason
