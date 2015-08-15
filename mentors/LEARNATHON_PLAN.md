@@ -75,34 +75,80 @@ Our AI's today will be written in Ruby, if you havent used Ruby before you might
 
 ## Sample Bot
 ### TryRuby 'Hello World'
-// Daniel EXPAND STUFF ON RUBY
+// Daniel
 
 (http://tryruby.org/levels/1/challenges/0)
 
-Before we begin, we'll go through a super simple 'Hello World' in ruby using the TryRuby console (mouse over link and enter) 
+Before we begin, we'll go over some of the basics of ruby.  You can try this along with me by going to tryruby.org
+
 In ruby, we print to console using 'puts'
 ```ruby
-puts 'Hello'
+puts "Hello, World!"
 ```
-(and run)
+Like most languages, any text or strings you want to use must be in quotations
+
+That works, but it's not too useful yet. We probably don't want to greet the whole world every time, so we can use a variable:
+```ruby
+name = "Daniel"
+puts "Hello, #{name}!"
+```
+You can use string interpolation to put the content of a variable right in a string
+
+Ruby is a dynamically typed language, which means you don't have to specify what data type a variable is. So instead of greeting people, let's try some numbers and math:
+```ruby
+result = 5 * 5
+puts "5 * 5 = #{result}"
+```
+
+Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, so we can define a method which will do the math and print out the result for us. A method is just a reusable block of code
+```ruby
+def five_times(x)
+  result = 5 * x
+  puts "5 * #{x} = #{result}"
+end
+
+five_times(5)
+five_times(7)
+five_times(31)
+```
 
 If blocks in ruby are written between a condition and an end
 ```ruby
-if true
-  puts ' World!'
+puts "Hello"
+if false
+  puts " World!"
 end
 ```
+The condition should evaluate to either true or false
 
-You can also define your own methods and run them
+(Condition examples: true, 3 == 3, 5 < 10, 15 < 10, 8 >= 7, "test" == "test", 3 < 5 && true, false || true)
+
+So in our `five_times` method if we didn't want people to use larger numbers we can display a message instead:
 ```ruby
-def ourPrint
-  puts 'Our very own method'
+def five_times(x)
+  if x > 100
+    puts "Number is too big"
+  else
+    result = 5 * x
+    puts "5 * #{x} = #{result}"
+  end
 end
-
-ourPrint
 ```
 
-If you want to try out Ruby in console the link is TryRuby in the getting-started section
+Next we have loops. In ruby you can use for and while loops similar to some other languages:
+```ruby
+for x in 0..5
+  puts x
+end
+```
+
+But you can also use a different type of loop in ruby, anything that can be looped through has an `each` method
+```ruby
+(0..5).each do |x|
+  puts x
+end
+```
+This part (highlight the block) is basically just a small, unnamed method called a block or lambda
 
 ### Bot Structure
 // Jason
@@ -127,11 +173,11 @@ end
 ### Points and Headings (Also introduce to objects in general)
 // Jason
 
-Before we begin making our bot, there are two TechTanks objects that you should understand a bit, Points and Headings. For those that dont know, objects are simply things things that hold values that can be changed. 
+Before we begin making our bot, there are two TechTanks objects that you should understand a bit, Points and Headings. For those that dont know, objects are simply things things that hold values that can be changed.
 
 Let's start with Points (mouse to points in getting-started), a point in TechTanks is basically an x, y location, where the top left corner of the screen is 0, 0. Create a point with Point.new (Check if RTanque:: is needed) with x and y values, as well as an arena. Don't worry too much about the arena, its just so the point has a frame of reference, you should be fine using your tanks self.arena. (mouse over function parts as theyre called)
 
-Most things have Point locations, like our tanks (mouse over self.sensors.position). 
+Most things have Point locations, like our tanks (mouse over self.sensors.position).
 
 There's a few things Points have build in, you can find them in the getting-started section, or the docs (mouse over each).
 
