@@ -1,16 +1,15 @@
 # Introduction
 
 ### Slack reminder
-First, if you haven't yet joined our Slack, please do. You should all have invites, if not, find a mentor and we'll get you on.
+If you haven't yet joined our Slack, please do. We sent invitations to your application email, the link to the sign up will be in that email. If not, find a mentor and we'll get you on.
+
 We will be keeping everyone up to date on the #software-learnathon channel. You can use Slack to ask for help/advice throughout the day.
 
 ### Challenge
-Today we'll be writing AI's for TechTanks, and fighting them to decide who takes home the prize. Head over to techtanks.techretreat.ca where we will be writing our bots.
+We'll be writing AI bots on TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to http://techtanks.techretreat.ca/, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
 
-To get started just sign up, head over to your email, and activate your account. If you have any problems ask a mentor for help.
-
-### Create our first bot
-Lets start by creating our first bot. Click the 'create a bot' button from then main screen and pick a name and color for your bot. These can be changed any time so dont worry about it for now. Lets head into the 'code' section.
+### Creating our first bot
+Let's start by creating our first bot. Click the 'create a bot' button from then main screen and pick a name and color for your bot. These can be changed any time so dont worry about it for now. Lets head into the 'code' section.
 
 ### Editor and replays
 This is where youll be spending most of your day, on the left we have our code editor, tank options where you can change your color and name, as well as published code and logs, we'll get to those two later.
@@ -95,10 +94,3 @@ Remember that we have mentors here, feel free to ask them for help any time.
 If you find any bugs, or think of any features that would be cool or useful to have in TechTanks, slack it to Jason Zukewich and well try to fix/build it.
 
 That's it, have fun!
-
-
-
-
-
-
-
