@@ -36,7 +36,7 @@
 // Yu Chen
 
 Good morning everyone, how has TR been going so far etc.
-
+Everyone from learnathon? We prepped something really cool for you guys and we think you'll love it. Who here knows ruby? dont worry
 Okay lets get strated
 
 ### Slack reminder
