@@ -27,31 +27,93 @@ Our AI will be written in Ruby. If you havent used Ruby before you might want to
 
 
 
+## TryRuby 'Hello World'
+Before we begin, we'll go over some of the basics of ruby.  You can try it at tryruby.org
+
+In ruby, we print to console using `puts`. Like most languages, any text you want to use must be in quotations
+```ruby
+puts "Hello, World!"
+```
+
+That works, but it's not too useful yet. We probably don't want to greet the whole world every time, so this is when we would use variables:
+```ruby
+name = "Daniel"
+puts "Hello, " + name + "!"
+```
+This is how we add text together.
+
+In Ruby you don't have to specify what type of data a variable is.
+```ruby
+x = "hello"
+puts x
+
+x = 10
+puts x
+```
+
+Let's try some math:
+```ruby
+result = 5 * 5
+puts "5 x 5 = " + result
+```
+
+Now let's say you wanted to find any number multiplied by five. You probably don't want to change the number each time, this is where we use methods. A method or function is a reusable block of code. You can give values to methods and have them send back results.
+```ruby
+def five_times(x)
+  result = 5 * x
+  return "5 x " + x + " = " + result
+end
+
+puts five_times(5)
+puts five_times(7)
+puts five_times(31)
+```
+
+If your tank needs to make decisions, you can use an `if` statement. If statements in ruby are written between a condition and an end
+```ruby
+if false
+  five_times(5)
+end
+```
+The condition should evaluate to either true or false
+
+(Examples: `true`, `3 == 3`, `5 < 10`, `15 < 10`, `8 >= 7`, `"test" == "test"`, `3 < 5 && true`, `false || true`)
+
+In our `five_times` method if we didn't want people to use larger numbers we can send back a message
+```ruby
+def five_times(x)
+  if x > 100
+    return "Number is too big"
+  else
+    result = 5 * x
+    return "5 x " + x + " = " + result
+  end
+end
+```
+
+Next we have loops. In ruby you can use for and while loops similar to other languages:
+```ruby
+for x in [0, 1, 2, 3, 4, 5]
+  puts five_times(x)
+end
+
+x = 0
+while x <= 5
+  puts five_times(x)
+  x += 1
+end
+```
+This will print the numbers from 0 to 5 multiplied by 5
+
+But you can also use a different type of loop in ruby, anything that can be looped through has an `each` method
+```ruby
+[0, 1, 2, 3, 4, 5].each do |x|
+  puts five_times(x)
+end
+```
+
+
 # Sample Bot
-### TryRuby 'Hello World'
-
-Before we begin, we'll go through a super simple 'Hello World' in Ruby using the TryRuby console (tryruby.org/levels/1/challenges/0)
-In ruby, we print to console using 'puts', try running this command in the console
-```ruby
-puts 'Hello'
-```
-
-If blocks in ruby are written between a condition and an end
-```ruby
-if true
-  puts ' World!'
-end
-```
-
-You can also define your own methods and run them
-```ruby
-def ourPrint
-  puts 'Our very own method!'
-end
-
-ourPrint
-```
-
 ### Bot Structure
 Let's start by making a simple tank. Go to the 'Edit Code' tab and open 'Getting Started' on the right, then open the 'Bot Basics' section.
 Our tank logic will go in the tick! method, which gets called every frame of the battle.
