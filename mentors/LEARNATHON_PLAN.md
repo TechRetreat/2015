@@ -46,7 +46,7 @@ First, if you haven't yet joined our Slack (show slack), please do. You should a
 We will be keeping everyone up to date on the Software-Learnathon (show screen) channel. You can use slack to ask for help/advice throughout the day.
 
 ### Get everyone on the site
-<Yu Chen>
+// Yu Chen
 Now for the challenge, today we'll be writing AI's for TechTanks, and fighting them to decide whoo takes home the prize. Head over to (show new tab) techtanks.techretreat.ca where we will be writing our bots.
 
 To get started just sign up (demonstrate), head over to your email, and activate your account. Hands up when your'e ready to start your tank
