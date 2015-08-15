@@ -33,13 +33,15 @@
 # Detailed Plan
 
 ## Introduction
-<Yu Chen>
+// Yu Chen
+
 Good morning everyone, how has TR been going so far etc.
 
 Okay lets get strated
 
 ### Slack reminder
-<Yu Chen>
+// Yu Chen
+
 First, if you haven't yet joined our Slack (show slack), please do. You should all have invites, if not, come find me after and we'll get you on.
 We will be keeping everyone up to date on the Software-Learnathon (show screen) channel. You can use slack to ask for help/advice throughout the day.
 
@@ -58,11 +60,13 @@ Your score is calculated as percent of total time survived + ending health + per
 (wait for hands) Alright is everyone good to go? (if any problems, get a mentor helping that group)
 
 ### Create our first bot
-<Jason>
+// Jason
+
 Alright, we're all in, lets start by creating our first bot. Click the 'create a bot' button (demonstrate) Then pick a name and color for your bot (demonstrate). These can be changed any time so dont worry about it for now. Lets head into the 'code' section (click code)
 
 ### Show editor and tab functions
-<Jason>
+// Jason
+
 This is where youll be spending most of your day, on the left we have our code editor, tank options where you can change your color and name, as well as published code and logs, we'll get to those two later. (open first two tabs as you mention them, mouse over other two)
 
 On the right we have our getting started page with all the stuff ill be going over now, the full documentation of TechTanks, and our game display, where we fight our bots (mouse over), once we have something to fight well show you how this works. (open each in turn and mouse over title)
@@ -76,43 +80,97 @@ Our AI's today will be written in Ruby, if you havent used Ruby before you might
 
 ## Sample Bot
 ### TryRuby 'Hello World'
-<Daniel EXPAND STUFF ON RUBY>
+// Daniel
+
 (http://tryruby.org/levels/1/challenges/0)
 
-Before we begin, we'll go through a super simple 'Hello World' in ruby using the TryRuby console (mouse over link and enter) 
+Before we begin, we'll go over some of the basics of ruby.  You can try this along with me by going to tryruby.org
+
 In ruby, we print to console using 'puts'
 ```ruby
-puts 'Hello'
+puts "Hello, World!"
 ```
-(and run)
+Like most languages, any text or strings you want to use must be in quotations
+
+That works, but it's not too useful yet. We probably don't want to greet the whole world every time, so we can use a variable:
+```ruby
+name = "Daniel"
+puts "Hello, #{name}!"
+```
+You can use string interpolation to put the content of a variable right in a string
+
+Ruby is a dynamically typed language, which means you don't have to specify what data type a variable is. So instead of greeting people, let's try some numbers and math:
+```ruby
+result = 5 * 5
+puts "5 x 5 = #{result}"
+```
+
+Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, so we can define a method which will do the math and print out the result for us. A method is just a reusable block of code
+```ruby
+def five_times(x)
+  result = 5 * x
+  puts "5 x #{x} = #{result}"
+end
+
+five_times(5)
+five_times(7)
+five_times(31)
+```
 
 If blocks in ruby are written between a condition and an end
 ```ruby
-if true
-  puts ' World!'
+puts "Hello"
+if false
+  puts " World!"
 end
 ```
+The condition should evaluate to either true or false
 
-You can also define your own methods and run them
+(Condition examples: `true`, `3 == 3`, `5 < 10`, `15 < 10`, `8 >= 7`, `"test" == "test"`, `3 < 5 && true`, `false || true`)
+
+So in our `five_times` method if we didn't want people to use larger numbers we can display a message instead:
 ```ruby
-def ourPrint
-  puts 'Our very own method'
+def five_times(x)
+  if x > 100
+    puts "Number is too big"
+  else
+    result = 5 * x
+    puts "5 x #{x} = #{result}"
+  end
 end
-
-ourPrint
 ```
 
-If you want to try out Ruby in console the link is TryRuby in the getting-started section
+Next we have loops. In ruby you can use for and while loops similar to some other languages:
+```ruby
+for x in 0..5
+  puts x
+end
+
+x = 0
+while x <= 5
+  puts x
+end
+```
+
+But you can also use a different type of loop in ruby, anything that can be looped through has an `each` method
+```ruby
+(0..5).each do |x|
+  puts x
+end
+```
+This part (highlight the block) is basically just a small, unnamed method called a block or lambda
 
 ### Bot Structure
-<Jason>
+// Jason
+
 Lets start by making a starter tank (go back to main tab and open bot basics section)
 Our tank logic will go in the tick! method, which gets called every frame of the battle.
 
 Here is where we can check whats going on on the battlefeild through self.sensors, and tell our bot what to do using self.command
 
 ### Running game/Logging
-<Jason>
+// Jason
+
 For example we can copy our ruby code from TryRuby in def and see what happens. Since we don't want to print every tick we'll only print if self.sensors.ticks equals 0.
 
 ```ruby
@@ -123,12 +181,13 @@ end
 (and run)
 
 ### Points and Headings (Also introduce to objects in general)
-<Jason>
-Before we begin making our bot, there are two TechTanks objects that you should understand a bit, Points and Headings. For those that dont know, objects are simply things things that hold values that can be changed. 
+// Jason
+
+Before we begin making our bot, there are two TechTanks objects that you should understand a bit, Points and Headings. For those that dont know, objects are simply things things that hold values that can be changed.
 
 Let's start with Points (mouse to points in getting-started), a point in TechTanks is basically an x, y location, where the top left corner of the screen is 0, 0. Create a point with Point.new (Check if RTanque:: is needed) with x and y values, as well as an arena. Don't worry too much about the arena, its just so the point has a frame of reference, you should be fine using your tanks self.arena. (mouse over function parts as theyre called)
 
-Most things have Point locations, like our tanks (mouse over self.sensors.position). 
+Most things have Point locations, like our tanks (mouse over self.sensors.position).
 
 There's a few things Points have build in, you can find them in the getting-started section, or the docs (mouse over each).
 
@@ -136,19 +195,22 @@ Directions in techtanks are held in Headings, basicaly just an angle, with some 
 
 ## Wrap up coding
 ### Save/publish code
-<Yu Chen>
+// Yu Chen
+
 So lets say im ready to fight my tank, I can go to the editor and save my code, then I can publish it so other people can fight against my code.
 
 If you're ever wondering what code is currently puslished for your tank, just go to the 'published code' section (go there)
 
 ### Show how docs are set up
-<Yu Chen>
+// Yu Chen
+
 Last quick note, the docs are pretty self explanatory, you can also use the rtanque docs online, but we've changed a few things for TechTanks
 
 The full list of changes is in the last section (Note: We should do that)
 
 ## Closing
-<Jason>
+// Jason
+
 Before everyone goes off, remember that we have mentors here to help you guys out, feel free to ask them for help any time.
 
 Also if you guys find any bugs, or think of any features that would be cool or useful to have, slack it to Jason Zukewich and well try to fix or build it

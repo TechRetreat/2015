@@ -6,7 +6,7 @@ If you haven't yet joined our Slack, please do. We sent invitations to your appl
 We will be keeping everyone up to date on the #software-learnathon channel. You can use Slack to ask for help/advice throughout the day.
 
 ### Challenge
-We'll be writing AI bots in TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to http://techtanks.techretreat.ca/, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
+We'll be writing AI bots in TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to techtanks.techretreat.ca, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
 
 ###Gameplay
 The goal of TechTanks is to destroy other bots, and survive as long as possible.
