@@ -171,7 +171,7 @@ end
 ### Bot Structure
 // Jason
 
-Lets start by making a starter tank (go back to main tab and open bot basics section)
+Lets start by making a starter tank (go back to main tab of techtanks.techretreat.ca and open bot basics section)
 Our tank logic will go in the tick! method, which gets called every frame of the battle.
 
 Here is where we can check whats going on on the battlefeild through self.sensors, and tell our bot what to do using self.command

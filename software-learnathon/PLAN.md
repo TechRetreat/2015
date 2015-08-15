@@ -28,7 +28,7 @@ Our AI will be written in Ruby. If you havent used Ruby before you might want to
 
 
 ## TryRuby 'Hello World'
-Before we begin, we'll go over some of the basics of ruby.  You can try it at tryruby.org
+Before we begin, we'll go over some of the basics of ruby.  You can follow along at tryruby.org
 
 In ruby, we print to console using `puts`. Like most languages, any text you want to use must be in quotations
 ```ruby
@@ -115,7 +115,7 @@ end
 
 # Sample Bot
 ### Bot Structure
-Let's start by making a simple tank. Go to the 'Edit Code' tab and open 'Getting Started' on the right, then open the 'Bot Basics' section.
+Let's start by making a simple tank. Go to techtanks.techretreat.ca 'Edit Code' tab and open 'Getting Started' on the right, then open the 'Bot Basics' section.
 Our tank logic will go in the tick! method, which gets called every frame of the battle.
 
 Here is where we can check whats going on on the battlefeild through self.sensors, and tell our bot what to do using self.command
