@@ -1,4 +1,9 @@
 # Introduction
+- Yu Chen Hou - [yuchen.io](http://yuchen.io)
+- Jason Zukewich - [jzukewich.me](http://jzukewich.me/)
+- Daniel Rampelt - [danielrampe.lt](https://danielrampe.lt/)
+- Dave Pagurek - [www.davepagurek.com](http://www.davepagurek.com/)
+- Joey Pereira - [pereira.io](http://pereira.io/)
 
 ### Slack reminder
 If you haven't yet joined our Slack, please do. We sent invitations to your application email, the link to the sign up will be in that email. If not, find a mentor and we'll get you on.
