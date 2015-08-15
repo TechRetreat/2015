@@ -97,14 +97,14 @@ You can use string interpolation to put the content of a variable right in a str
 Ruby is a dynamically typed language, which means you don't have to specify what data type a variable is. So instead of greeting people, let's try some numbers and math:
 ```ruby
 result = 5 * 5
-puts "5 * 5 = #{result}"
+puts "5 x 5 = #{result}"
 ```
 
 Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, so we can define a method which will do the math and print out the result for us. A method is just a reusable block of code
 ```ruby
 def five_times(x)
   result = 5 * x
-  puts "5 * #{x} = #{result}"
+  puts "5 x #{x} = #{result}"
 end
 
 five_times(5)
@@ -121,7 +121,7 @@ end
 ```
 The condition should evaluate to either true or false
 
-(Condition examples: true, 3 == 3, 5 < 10, 15 < 10, 8 >= 7, "test" == "test", 3 < 5 && true, false || true)
+(Condition examples: `true`, `3 == 3`, `5 < 10`, `15 < 10`, `8 >= 7`, `"test" == "test"`, `3 < 5 && true`, `false || true`)
 
 So in our `five_times` method if we didn't want people to use larger numbers we can display a message instead:
 ```ruby
@@ -130,7 +130,7 @@ def five_times(x)
     puts "Number is too big"
   else
     result = 5 * x
-    puts "5 * #{x} = #{result}"
+    puts "5 x #{x} = #{result}"
   end
 end
 ```
@@ -138,6 +138,11 @@ end
 Next we have loops. In ruby you can use for and while loops similar to some other languages:
 ```ruby
 for x in 0..5
+  puts x
+end
+
+x = 0
+while x <= 5
   puts x
 end
 ```
