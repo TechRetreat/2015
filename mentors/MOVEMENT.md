@@ -26,7 +26,7 @@ Any questions about the process? Ask Deon or Cora on slack! :)
 
 ## Route
 Walk along Math Road (the road between MC and M3, with Plant Ops) east towards Engineering 5 and Ring Road.
-Then walk south along Ring Road towards Engineering 5 and enter in the front to the second floor.
+Then walk south along Ring Road towards Engineering 5 and enter in the front to the second floor - due to construction you will have to go around to the UW plaza and up the ramp.
 
 ### Rain Plan
 If it happens to rain, walk up to the third floor of M3 to the bridge between MC and DC, turn towards DC, continue on the third floor of DC until
