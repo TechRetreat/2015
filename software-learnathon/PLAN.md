@@ -6,7 +6,14 @@ If you haven't yet joined our Slack, please do. We sent invitations to your appl
 We will be keeping everyone up to date on the #software-learnathon channel. You can use Slack to ask for help/advice throughout the day.
 
 ### Challenge
-We'll be writing AI bots on TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to http://techtanks.techretreat.ca/, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
+We'll be writing AI bots in TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to http://techtanks.techretreat.ca/, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
+
+###Gameplay
+The goal of TechTanks is to destroy other bots, and survive as long as possible.
+
+Bots start at random positions, shoot other bots to damage them, collisions damage both bots equally.
+
+Your score is calculated as percent of total time survived + ending health + percent of bots killed
 
 ### Creating our first bot
 Let's start by creating our first bot. Click the “Create a Tank” button from the home screen and pick a name and color for your bot. These settings can be changed at any time so don't worry about it too much. Lets head into the 'Code' section.

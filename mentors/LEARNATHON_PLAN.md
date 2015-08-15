@@ -45,9 +45,15 @@ We will be keeping everyone up to date on the Software-Learnathon (show screen) 
 
 ### Get everyone on the site
 <Yu Chen>
-Now for the challenge, today we'll be writing AI's for TechTanks, and fighting them to decide whoo takes home the prize. Head over to (show new tab) staging.techtanks.techretreat.ca where we will be writing our bots.
+Now for the challenge, today we'll be writing AI's for TechTanks, and fighting them to decide whoo takes home the prize. Head over to (show new tab) techtanks.techretreat.ca where we will be writing our bots.
 
 To get started just sign up (demonstrate), head over to your email, and activate your account. Hands up when your'e ready to start your tank
+
+The goal of TechTanks is to destroy other bots, and survive as long as possible.
+
+Bots start at random positions, shoot other bots to damage them, collisions damage both bots equally.
+
+Your score is calculated as percent of total time survived + ending health + percent of bots killed
 
 (wait for hands) Alright is everyone good to go? (if any problems, get a mentor helping that group)
 
