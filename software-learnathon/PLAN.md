@@ -9,21 +9,21 @@ We will be keeping everyone up to date on the #software-learnathon channel. You 
 We'll be writing AI bots on TechTanks, an arena-styled tank fighting game inspired by Robocode and Rtanque. Head over to http://techtanks.techretreat.ca/, sign up and activate your account. If you have any problems at any point, you can ask a mentor for help.
 
 ### Creating our first bot
-Let's start by creating our first bot. Click the 'create a bot' button from then main screen and pick a name and color for your bot. These can be changed any time so dont worry about it for now. Lets head into the 'code' section.
+Let's start by creating our first bot. Click the “Create a Tank” button from the home screen and pick a name and color for your bot. These settings can be changed at any time so don't worry about it too much. Lets head into the 'Code' section.
 
 ### Editor and replays
-This is where youll be spending most of your day, on the left we have our code editor, tank options where you can change your color and name, as well as published code and logs, we'll get to those two later.
+This is where you'll be spending most of your day, on the left we have our code editor, 'Tank Options' where you can change your color and name, 'Publish Code' and 'Logs', we'll get to those two later.
 
-On the right we have our getting started page, this has information to get started coding your bot, the full documentation of TechTanks, and our game display, where we fight our bots.
+On the right we have our getting started page, the full documentation of TechTanks, and our game display, where your code will come to life.
 
-Our AI's today will be written in Ruby, if you havent used Ruby before you might want to look at Codeacademy quickly (www.codecademy.com/tracks/ruby).
+Our AI will be written in Ruby. If you havent used Ruby before you might want to look at Codeacademy quickly (https://www.codecademy.com/tracks/ruby).
 
 
 
 # Sample Bot
 ### TryRuby 'Hello World'
 
-Before we begin, we'll go through a super simple 'Hello World' in ruby using the TryRuby console (tryruby.org/levels/1/challenges/0)
+Before we begin, we'll go through a super simple 'Hello World' in Ruby using the TryRuby console (tryruby.org/levels/1/challenges/0)
 In ruby, we print to console using 'puts', try running this command in the console
 ```ruby
 puts 'Hello'
@@ -46,7 +46,7 @@ ourPrint
 ```
 
 ### Bot Structure
-Lets start by making a simple tank, go to the TechTanks Edit tab and open Getting Started on the right, then open the Bot Basics section.
+Let's start by making a simple tank. Go to the 'Edit Code' tab and open 'Getting Started' on the right, then open the 'Bot Basics' section.
 Our tank logic will go in the tick! method, which gets called every frame of the battle.
 
 Here is where we can check whats going on on the battlefeild through self.sensors, and tell our bot what to do using self.command
@@ -65,9 +65,9 @@ end
 To fight your tank, click the play arrow on the top right. The logs will show up in the TechTanks console.
 
 ### Points and Headings
-Before we begin making our bot, there are two TechTanks objects that you should understand a bit, Points and Headings. For those that dont know, objects are simply things things that hold values that can be changed. 
+Before we begin making our bot, there are two TechTanks objects that you should understand, Points and Headings. Objects are things which hold changeable values. 
 
-Let's start with Points, a point in TechTanks is basically an x, y location, where the top left corner of the screen is 0, 0. Create a point with RTanque::Point.new with x and y values, as well as an arena. Don't worry too much about the arena, its just so the point has a frame of reference, you should be fine using your tanks self.arena.
+Let's start with Points (position), a point in TechTanks is basically an x, y location, where the top left corner of the screen is 0, 0. Create a point with RTanque::Point.new with x and y values, as well as an arena. Don't worry too much about the arena, its just so the point has a frame of reference, you should be fine using your tanks self.arena.
 
 Most things have Point locations, like our tanks (mouse over self.sensors.position). 
 
