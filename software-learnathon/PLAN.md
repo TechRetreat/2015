@@ -2,6 +2,7 @@
 - Yu Chen Hou - [yuchen.io](http://yuchen.io)
 - Jason Zukewich - [jzukewich.me](http://jzukewich.me/)
 - Daniel Rampelt - [danielrampe.lt](https://danielrampe.lt/)
+- Simon Fan - [https://github.com/xmfan](https://github.com/xmfan) 
 - Dave Pagurek - [www.davepagurek.com](http://www.davepagurek.com/)
 - Joey Pereira - [pereira.io](http://pereira.io/)
 
