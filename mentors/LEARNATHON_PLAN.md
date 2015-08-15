@@ -78,13 +78,12 @@ Our AI's today will be written in Ruby, if you havent used Ruby before you might
 
 
 
-## Sample Bot
-### TryRuby 'Hello World'
+## TryRuby 'Hello World'
 // Daniel
 
 (http://tryruby.org/levels/1/challenges/0)
 
-Before we begin, we'll go over some of the basics of ruby.  You can try this at tryruby.org
+Before we begin, we'll go over some of the basics of ruby.  You can follow along at tryruby.org
 
 In ruby, we print to console using `puts`. Like most languages, any text you want to use must be in quotations
 ```ruby
@@ -96,15 +95,24 @@ That works, but it's not too useful yet. We probably don't want to greet the who
 name = "Daniel"
 puts "Hello, " + name + "!"
 ```
-So here we added some text together.
+This is how we add text together.
 
-In Ruby you don't have to specify what a variable is. Let's try some math:
+In Ruby you don't have to specify what type of data a variable is.
+```ruby
+x = "hello"
+puts x
+
+x = 10
+puts x
+```
+
+Let's try some math:
 ```ruby
 result = 5 * 5
 puts "5 x 5 = " + result
 ```
 
-Now let's say you wanted to find any number multiplied by five. You probably wouldn't want to change the number and output each time, this is where we use methods. A method or function is a reusable block of code. You can give values to functions and have them send back results.
+Now let's say you wanted to find any number multiplied by five. You probably don't want to change the number each time, this is where we use methods. A method or function is a reusable block of code. You can give values to methods and have them send back results.
 ```ruby
 def five_times(x)
   result = 5 * x
@@ -118,9 +126,8 @@ puts five_times(31)
 
 If your tank needs to make decisions, you can use an `if` statement. If statements in ruby are written between a condition and an end
 ```ruby
-puts "Hello"
 if false
-  puts " World!"
+  five_times(5)
 end
 ```
 The condition should evaluate to either true or false
@@ -142,24 +149,25 @@ end
 Next we have loops. In ruby you can use for and while loops similar to other languages:
 ```ruby
 for x in [0, 1, 2, 3, 4, 5]
-  puts x
+  puts five_times(x)
 end
 
 x = 0
 while x <= 5
-  puts x
+  puts five_times(x)
   x += 1
 end
 ```
+This will print the numbers from 0 to 5 multiplied by 5
 
 But you can also use a different type of loop in ruby, anything that can be looped through has an `each` method
 ```ruby
 [0, 1, 2, 3, 4, 5].each do |x|
-  puts x
+  puts five_times(x)
 end
 ```
-This will print the numbers from 0 to 5
 
+## Sample Bot
 ### Bot Structure
 // Jason
 
